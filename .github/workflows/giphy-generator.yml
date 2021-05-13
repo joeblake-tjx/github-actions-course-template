@@ -3,12 +3,12 @@ name: GIPHY generator
 on:
   issues:
     types: [opened, edited]
-   pull_request:
+  pull_request:
     types: [opened, edited]
-   issue_comment:
+  issue_comment:
     types: [created, edited]
     
- jobs:
+jobs:
   giphy-generator:
     runs-on: ubuntu-latest
     
